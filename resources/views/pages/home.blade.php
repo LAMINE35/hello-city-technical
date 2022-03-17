@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('content')
-<img src="/images/senegal-flag.png" alt="Senegal Flag">
+    <img src="{{ asset('images/senegal-flag.png') }}" alt="Senegal Flag">
 
-        <h1>Hello from Thies!</h1>
+    <h1>Hello from Thies!</h1>
 
-        <p>It's currently {{ date('h:i A') }}.</p>
+    <p>It's currently {{ date('h:i A') }}.</p>
 @endsection

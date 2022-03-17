@@ -3,7 +3,7 @@
 @section('title', 'About Us | ' . config('app.name'))
 
 @section('content')
-<img src="/images/tnc-logo.png" alt="TNC Logo">
+    <img src="{{ asset('images/tnc-logo.png') }}" alt="TNC Logo">
 
     <p>Built with &hearts; by Technical Boy.</p>
 
