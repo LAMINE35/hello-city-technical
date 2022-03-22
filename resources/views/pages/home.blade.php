@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
     <img src="{{ asset('images/senegal-flag.png') }}" alt="Senegal Flag" class="rounded shadow-md h-32">

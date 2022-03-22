@@ -1,6 +1,4 @@
-@extends('app')
-
-@section('title', 'About Us | ' . config('app.name'))
+@extends('layouts.app' , ['title' => 'About Us'])
 
 @section('content')
     <img src="{{ asset('images/tnc-logo.png') }}" alt="TNC Logo" class="my-12 rounded-full shadow-md">
